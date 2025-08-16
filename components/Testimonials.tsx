@@ -62,7 +62,7 @@ export function Testimonials() {
             What Our Customers Say
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Don't just take our word for it. See why hundreds of Florida homeowners and businesses trust Garcia Professional Stucco with their stucco projects.
+            Don&apos;t just take our word for it. See why hundreds of Florida homeowners and businesses trust Garcia Professional Stucco with their stucco projects.
           </p>
         </div>
 
@@ -89,7 +89,7 @@ export function Testimonials() {
                 </div>
                 
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  "{testimonial.text}"
+                  &quot;{testimonial.text}&quot;
                 </p>
                 
                 <div className="text-sm text-primary font-medium">

@@ -19,7 +19,7 @@ export function Contact() {
             Ready to Start Your Florida Stucco Project?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Get in touch with Garcia Professional Stucco today. We're here to answer your questions and provide personalized solutions for your Florida home.
+            Get in touch with Garcia Professional Stucco today. We&apos;re here to answer your questions and provide personalized solutions for your Florida home.
           </p>
         </div>
 
@@ -93,7 +93,7 @@ export function Contact() {
             <Card className="shadow-xl border-0">
               <CardHeader className="bg-primary text-white rounded-t-lg">
                 <CardTitle className="text-2xl">Get Your Free Consultation</CardTitle>
-                <p className="text-lg opacity-90">Fill out the form below and we'll contact you within 2 hours</p>
+                <p className="text-lg opacity-90">Fill out the form below and we&apos;ll contact you within 2 hours</p>
               </CardHeader>
               <CardContent className="p-8">
                 <form onSubmit={handleSubmit} className="space-y-6">

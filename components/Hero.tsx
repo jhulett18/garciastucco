@@ -17,10 +17,10 @@ export function Hero() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                Garcia Professional Stucco - South Florida's Trusted Experts
+                Garcia Professional Stucco - South Florida&apos;s Trusted Experts
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Transform your Florida home with our expert stucco installation, repair, and restoration services. Serving Okeechobee, Lake Placid, Sebring, and surrounding areas with quality craftsmanship built for Florida's climate.
+                Transform your Florida home with our expert stucco installation, repair, and restoration services. Serving Okeechobee, Lake Placid, Sebring, and surrounding areas with quality craftsmanship built for Florida&apos;s climate.
               </p>
             </div>
 

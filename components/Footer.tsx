@@ -11,7 +11,7 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold text-foreground">Garcia Professional Stucco</h3>
             <p className="text-muted-foreground">
-              Professional stucco services serving Okeechobee and South Florida with 25+ years of experience. Licensed, insured, and committed to quality craftsmanship built for Florida's climate.
+              Professional stucco services serving Okeechobee and South Florida with 25+ years of experience. Licensed, insured, and committed to quality craftsmanship built for Florida&apos;s climate.
             </p>
             <div className="flex space-x-4">
               <Facebook className="h-6 w-6 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
