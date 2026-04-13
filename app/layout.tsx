@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Garcia Professional Stucco - Okeechobee & South Florida Stucco Services',
-  description: 'Expert stucco installation, repair, and restoration services in Okeechobee, Lake Placid, Sebring, and throughout South Florida. Licensed and insured with 25+ years of experience. Free estimates!',
+  description: 'Expert stucco installation, repair, and restoration services in Okeechobee, Lake Placid, Sebring, and throughout South Florida. Fully insured with 25+ years of experience. Free estimates!',
 }
 
 export default function RootLayout({

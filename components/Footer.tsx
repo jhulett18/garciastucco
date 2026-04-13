@@ -11,7 +11,7 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold text-foreground">Garcia Professional Stucco</h3>
             <p className="text-muted-foreground">
-              Professional stucco services serving Okeechobee and South Florida with 25+ years of experience. Licensed, insured, and committed to quality craftsmanship built for Florida&apos;s climate.
+              Professional stucco services serving Okeechobee and South Florida with 25+ years of experience. Fully insured and committed to quality craftsmanship built for Florida&apos;s climate.
             </p>
             <div className="flex space-x-4">
               <Facebook className="h-6 w-6 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
@@ -73,7 +73,7 @@ export function Footer() {
                 <MapPin className="h-5 w-5 text-primary" />
                 <div>
                   <p className="text-foreground">Okeechobee, Florida</p>
-                  <p className="text-sm text-muted-foreground">Licensed & Insured</p>
+                  <p className="text-sm text-muted-foreground">Fully Insured</p>
                 </div>
               </div>
             </div>
@@ -84,7 +84,7 @@ export function Footer() {
           <div className="grid md:grid-cols-2 gap-4 items-center">
             <div className="text-muted-foreground text-sm">
               <p>&copy; {currentYear} Garcia Professional Stucco. All rights reserved.</p>
-              <p>Licensed, Bonded & Insured in Florida • License #FL-123456</p>
+              <p>Bonded & Insured in Florida</p>
             </div>
             
             <div className="text-right text-muted-foreground text-sm">

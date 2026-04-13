@@ -75,7 +75,7 @@ export function Contact() {
             <div className="grid grid-cols-3 gap-4">
               <div className="text-center p-4 bg-white rounded-lg shadow">
                 <Shield className="h-8 w-8 mx-auto mb-2 text-primary" />
-                <div className="text-sm font-semibold">Licensed & Insured</div>
+                <div className="text-sm font-semibold">Fully Insured</div>
               </div>
               <div className="text-center p-4 bg-white rounded-lg shadow">
                 <Award className="h-8 w-8 mx-auto mb-2 text-primary" />
