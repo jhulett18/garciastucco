@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Menu } from "lucide-react";
+import Link from "next/link";
 import { useState } from "react";
 
 export function Header() {
@@ -20,7 +21,7 @@ export function Header() {
           <div className="flex items-center">
             <h1 className="text-2xl font-bold text-primary">Garcia Professional Stucco</h1>
           </div>
-          
+
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             <button onClick={() => scrollToSection('services')} className="text-foreground hover:text-primary transition-colors">
@@ -29,9 +30,9 @@ export function Header() {
             <button onClick={() => scrollToSection('calculator')} className="text-foreground hover:text-primary transition-colors">
               Quote Calculator
             </button>
-            <button onClick={() => scrollToSection('testimonials')} className="text-foreground hover:text-primary transition-colors">
-              Testimonials
-            </button>
+            <Link href="/blog" className="text-foreground hover:text-primary transition-colors">
+              Blog
+            </Link>
             <button onClick={() => scrollToSection('contact')} className="text-foreground hover:text-primary transition-colors">
               Contact
             </button>
@@ -68,9 +69,13 @@ export function Header() {
               <button onClick={() => scrollToSection('calculator')} className="text-left text-foreground hover:text-primary transition-colors">
                 Quote Calculator
               </button>
-              <button onClick={() => scrollToSection('testimonials')} className="text-left text-foreground hover:text-primary transition-colors">
-                Testimonials
-              </button>
+              <Link
+                href="/blog"
+                className="text-left text-foreground hover:text-primary transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Blog
+              </Link>
               <button onClick={() => scrollToSection('contact')} className="text-left text-foreground hover:text-primary transition-colors">
                 Contact
               </button>
